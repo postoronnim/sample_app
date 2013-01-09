@@ -1,8 +1,5 @@
 SampleApp::Application.routes.draw do
-<<<<<<< HEAD
 
-=======
->>>>>>> sign-up
   resources :users
 
   root to: 'static_pages#home'

@@ -5,8 +5,4 @@ FactoryGirl.define do
     password "foobar"
     password_confirmation "foobar"
   end
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> sign-up
