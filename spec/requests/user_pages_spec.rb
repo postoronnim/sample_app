@@ -12,10 +12,24 @@ describe "User pages" do
     it { should have_selector('title', text: user.name) }
   end
 
+<<<<<<< HEAD
   describe "signup" do
 
     before { visit signup_path }
 
+=======
+  describe "signup page" do
+    before { visit signup_path }
+
+    it { should have_selector('h1',    text: 'Sign up') }
+    it { should have_selector('title', text: 'Sign up') }
+  end
+
+  describe "signup" do
+
+    before { visit signup_path }
+
+>>>>>>> sign-up
     let(:submit) { "Create my account" }
 
     describe "with invalid information" do
